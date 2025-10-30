@@ -1,0 +1,34 @@
+p.bg::after{
+    background-color: #614253;
+  content: "";
+  position:absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  z-index: -1;
+}
+
+p.banner{
+font-family:ab-kirigirisu, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+color:#FFAFFF;
+text-align:center;
+}
+
+img{
+    width:256px;
+    height:256px;
+}
+
+body{
+    color:#555;
+}
+
+hr.line{
+    border: none;          /* デフォルトの立体感を消す */
+    height: 2px; 
+    background-color:#000
+}
